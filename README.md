@@ -1,6 +1,6 @@
 # Rerave
 
-A gem to calculate scores for [ReRave](http://www.rerave.com).
+A gem to calculate score statistics for [ReRave](http://www.rerave.com).
 
 ## Installation
 

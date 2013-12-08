@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Rerave::VERSION
   spec.authors       = ["Steve Klabnik"]
   spec.email         = ["steve@steveklabnik.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = %q{Calculate score statistics for ReRave.}
+  spec.summary       = %q{Calculate score statistics for ReRave.}
+  spec.homepage      = "http://github.com/steveklabnik/rerave"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
