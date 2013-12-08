@@ -1,6 +1,7 @@
 require 'thor'
 require 'fileutils'
 require 'mechanize'
+require 'pathname'
 
 module Rerave
   class CLI < Thor
