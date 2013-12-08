@@ -5,6 +5,12 @@ require 'mechanize'
 module Rerave
   class CLI < Thor
 
+    desc "clear", "Clear out the cached scores."
+    def clear
+      dir = "#{Dir.home}/.rerave/"
+      FileUtils.rm_rf(dir)
+    end
+
     desc "top", "Create local archive of top scores"
     def top
       top_scores = {}
